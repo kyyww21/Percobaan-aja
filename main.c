@@ -59,6 +59,6 @@ void penambahanBuku() {
         perpustakaan[totalBuku].JumlahDipinjam = 0;
 
         totalBuku++;
-        printf("\n-- Buku baru berhasil ditambahkan --\n");
+        printf("\n-- Buku berhasil ditambahkan --\n");
     }
 }
