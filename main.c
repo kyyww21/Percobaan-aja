@@ -46,8 +46,6 @@ void penambahanBuku() {
             return;
         }
 
-        printf("\n-- Buku baru, silakan lengkapi data --\n");
-
         strcpy(perpustakaan[totalBuku].Kode, kode);
 
         printf("Masukkan Judul Buku : ");
@@ -61,4 +59,8 @@ void penambahanBuku() {
         totalBuku++;
         printf("\n-- Buku yang baru berhasil ditambahkan --\n");
     }
+}
+
+int main (){
+    penambahanBuku();
 }
