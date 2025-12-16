@@ -26,8 +26,10 @@ void peminjamanBuku() {
     int ditemukan = 0;
 
     printf("\n--- Peminjaman Buku ---\n");
-    printf("Masukan Nama Anda : ");
-    scanf(" %[^\n]", pinjam.namaSiswa);
+    printf("Masukan Nama Anda  : ");
+    scanf(" %[^\n]", pinjam[totalBuku].namaSiswa);
+    printf("Masukan Kelas Anda : ");
+    scanf(" %[^\n]", pinjam[totalBuku].kelasSiswa);
     printf("Masukkan Kode Buku : ");
     scanf(" %[^\n]", kode);
 
@@ -82,3 +84,8 @@ void pengembalianBuku() {
         printf("\n-- Buku dengan kode '%s' tidak ditemukan --\n", kode);
     }
 }
+void listPeminjam(){
+    
+
+}
+
