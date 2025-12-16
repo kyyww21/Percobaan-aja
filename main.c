@@ -191,7 +191,7 @@ void bubbleSortBuku() {
 }
 
 void selesai() {
-    printf("\nOke, Terimakasih ;)\n");
+    printf("\nOke, Terimakasih \n");
 }
 
 void menu();
