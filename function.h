@@ -5,6 +5,8 @@ void penambahanBuku();
 void cariBuku();
 void daftarBuku();
 void peminjamanBuku();
+void daftarPeminjam();
+void cariPeminjam();
 void pengembalianBuku();
 void bubbleSortBuku();
 void selesai();
