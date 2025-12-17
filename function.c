@@ -1,4 +1,4 @@
 void clear(){
-    system("cls");
+    system("cls123");
 }
     
