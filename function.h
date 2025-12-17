@@ -2,13 +2,10 @@
 #define PERPUSTAKAAN_H
 
 void penambahanBuku();
-void cariBuku();
+void bubbleSortBuku();
 void daftarBuku();
 void peminjamanBuku();
-void daftarPeminjam();
-void cariPeminjam();
 void pengembalianBuku();
-void bubbleSortBuku();
 void selesai();
 void subMenu1();
 void subMenu2();
